@@ -46,11 +46,7 @@ I successfully completed all mandatory parts and **bonus features**, achieving a
 Since there is **no Makefile**, you must **compile manually** using `gcc`:
 
 ### 🛠 **Compile the Mandatory Part**
-```sh
-gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c -o gnl_test
-```
-### ▶️ Run the program
-You can now use get_next_line() in a test file:
+You can use get_next_line() in a test file:
 ```c
 #include "get_next_line.h"
 #include <fcntl.h>
@@ -68,11 +64,14 @@ int main() {
     return 0;
 }
 ```
+
 Compile with your main.c
 ```sh
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c -o test_gnl
 ./test_gnl
 ```
+
+Don't forget to change the filename or add the content inside it
 
 ## 📜 License
 
