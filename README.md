@@ -37,7 +37,7 @@ I successfully completed all mandatory parts and **bonus features**, achieving a
 | ▸ **Multiple File Descriptors** | Handles multiple file descriptors simultaneously |
 | ▸ **Single Static Variable** | Optimized memory handling |
 
-### ▌ **Forbidden Functions**
+### ■ **Forbidden Functions**
 - ❌ `lseek()`
 - ❌ Global variables
 - ❌ Using `libft` functions
@@ -45,7 +45,7 @@ I successfully completed all mandatory parts and **bonus features**, achieving a
 ## ▌ Compilation & Usage
 Since there is **no Makefile**, you must **compile manually** using `gcc`:
 
-### ▌ **Compile the Mandatory Part**
+### ■ **Compile the Mandatory Part**
 You can use get_next_line() in a test file:
 ```c
 #include "get_next_line.h"
