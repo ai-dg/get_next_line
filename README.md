@@ -42,22 +42,19 @@ I successfully completed all mandatory parts and **bonus features**, achieving a
 - ❌ Global variables
 - ❌ Using `libft` functions
 
-## 🚀 Installation & Usage
-1️⃣ **Clone the repository**  
-```sh
-git clone https://github.com/ai-dg/get_next_line.git
-cd get_next_line
-```
-2️⃣ Compile the library
-```sh
-make
-```
+## 🚀 Compilation & Usage
+Since there is **no Makefile**, you must **compile manually** using `gcc`:
 
-3️⃣ Use get_next_line in another project
-Include the header and link get_next_line.a:
+### 🛠 **Compile the Mandatory Part**
+```sh
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c -o gnl_test
+```
+### ▶️ Run the program
+You can now use get_next_line() in a test file:
 ```c
 #include "get_next_line.h"
 #include <fcntl.h>
+#include <stdio.h>
 
 int main() {
     int fd = open("file.txt", O_RDONLY);
@@ -71,11 +68,10 @@ int main() {
     return 0;
 }
 ```
-
-Compile with:
+Compile with your main.c
 ```sh
-gcc main.c -Wall -Wextra -Werror -D BUFFER_SIZE=42 -L. -lgnl -o my_program
-./my_program
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c -o test_gnl
+./test_gnl
 ```
 
 ## 📜 License
