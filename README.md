@@ -1,51 +1,51 @@
-# 📄 get_next_line - Read a File Line by Line
+# get_next_line - Read a File Line by Line
 
 <img src="https://github.com/user-attachments/assets/6c7ac6f2-3d12-4c20-8906-8714418add66" width="500">
 
 ![Score](https://img.shields.io/badge/Score-125%25-brightgreen)  
 📌 **42 School - Core Curriculum Project**  
 
-## 📝 Description
+## ▌ Description
 The **get_next_line** project is about implementing a function that reads and returns a single line from a file descriptor.  
 This project was a great opportunity to work with **static variables, file handling, and memory management** in C.
 
-## 🔥 Objectives
-✅ Implement **efficient file reading** one line at a time  
-✅ Handle **dynamic memory allocation** and **avoid memory leaks**  
-✅ Work with **file descriptors** and `read()`  
-✅ Implement **bonus features** to support multiple file descriptors  
+## ▌ Objectives
+▸ Implement **efficient file reading** one line at a time  
+▸ Handle **dynamic memory allocation** and **avoid memory leaks**  
+▸ Work with **file descriptors** and `read()`  
+▸ Implement **bonus features** to support multiple file descriptors  
 
-## 🏆 Result: **125% with Bonus**
+## ▌ Result: **125% with Bonus**
 I successfully completed all mandatory parts and **bonus features**, achieving a perfect **125%** score. 🎉
 
-## 📁 Files
+## ▌ Files
 - `get_next_line.h` → Contains function prototypes and required macros  
 - `get_next_line.c` → Main function to read a line from a file descriptor  
 - `get_next_line_utils.c` → Helper functions for memory management  
 - `Makefile` → Automates compilation (`all`, `clean`, `fclean`, `re`, `bonus`)  
 
-## ⚙️ Implemented Functions
-### 🔹 **Mandatory Part**
+## ▌ Implemented Functions
+### ■ **Mandatory Part**
 | Function | Description |
 |----------|-------------|
 | `get_next_line(int fd)` | Reads a line from a file descriptor |
 | `get_next_line_utils.c` | Contains utility functions for `get_next_line` |
 
-### 🎯 **Bonus Features**
+### ■ **Bonus Features**
 | Feature | Description |
 |---------|-------------|
-| ✅ **Multiple File Descriptors** | Handles multiple file descriptors simultaneously |
-| ✅ **Single Static Variable** | Optimized memory handling |
+| ▸ **Multiple File Descriptors** | Handles multiple file descriptors simultaneously |
+| ▸ **Single Static Variable** | Optimized memory handling |
 
-### 🔥 **Forbidden Functions**
+### ▌ **Forbidden Functions**
 - ❌ `lseek()`
 - ❌ Global variables
 - ❌ Using `libft` functions
 
-## 🚀 Compilation & Usage
+## ▌ Compilation & Usage
 Since there is **no Makefile**, you must **compile manually** using `gcc`:
 
-### 🛠 **Compile the Mandatory Part**
+### ▌ **Compile the Mandatory Part**
 You can use get_next_line() in a test file:
 ```c
 #include "get_next_line.h"
