@@ -1,7 +1,5 @@
 # get_next_line - Read a File Line by Line
 
-<img src="https://github.com/user-attachments/assets/6c7ac6f2-3d12-4c20-8906-8714418add66" width="500">
-
 ![Score](https://img.shields.io/badge/Score-125%25-brightgreen)  
 📌 **42 School - Core Curriculum Project**  
 
