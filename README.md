@@ -7,6 +7,31 @@
 The **get_next_line** project is about implementing a function that reads and returns a single line from a file descriptor.  
 This project was a great opportunity to work with **static variables, file handling, and memory management** in C.
 
+```mermaid
+flowchart TB
+    A[Caller code] --> B[get_next_line fd]
+
+    B --> C[Static buffer per file descriptor]
+
+    C --> D[Read from fd into temp buffer]
+    D --> E[Append buffer to static storage]
+
+    E --> F{Newline found}
+    
+    F -->|No| D
+    F -->|Yes| G[Extract line up to newline]
+
+    G --> H[Update static buffer<br/>keep remaining data]
+    H --> I[Return line to caller]
+
+    I --> A
+
+    E --> J{End of file}
+    J -->|Yes and buffer not empty| K[Return last line]
+    J -->|Yes and buffer empty| L[Return NULL]
+
+```
+
 ## ▌ Objectives
 ▸ Implement **efficient file reading** one line at a time  
 ▸ Handle **dynamic memory allocation** and **avoid memory leaks**  
