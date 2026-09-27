@@ -6,7 +6,7 @@
 ## ▌ Description
 The **get_next_line** project is about implementing a function that reads and returns a single line from a file descriptor.  
 This project was a great opportunity to work with **static variables, file handling, and memory management** in C.
-<!-- <img width="1278" height="1769" alt="image" src="https://github.com/user-attachments/assets/080aca5e-5eea-4b41-8a30-c56e9ef1aae0" /> -->
+<img src="assets/overview.png" alt="get_next_line — overview" width="760">
 
 ```mermaid
 flowchart TB
