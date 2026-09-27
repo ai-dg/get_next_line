@@ -8,7 +8,9 @@ The **get_next_line** project is about implementing a function that reads and re
 This project was a great opportunity to work with **static variables, file handling, and memory management** in C.
 <img src="assets/overview.png" alt="get_next_line — overview" width="760">
 
-<!-- Old diagram, kept for reference; the overview image above replaces it.
+<details>
+<summary>Old diagram (mermaid)</summary>
+
 ```mermaid
 flowchart TB
     A[Caller code] --> B[get_next_line fd]
@@ -33,7 +35,8 @@ flowchart TB
     J -->|Yes and buffer empty| L[Return NULL]
 
 ```
--->
+
+</details>
 
 ## ▌ Objectives
 ▸ Implement **efficient file reading** one line at a time  
