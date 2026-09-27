@@ -46,7 +46,7 @@ I successfully completed all mandatory parts and **bonus features**, achieving a
 - `get_next_line.h` → Contains function prototypes and required macros  
 - `get_next_line.c` → Main function to read a line from a file descriptor  
 - `get_next_line_utils.c` → Helper functions for memory management  
-- `Makefile` → Automates compilation (`all`, `clean`, `fclean`, `re`, `bonus`)  
+- `get_next_line_bonus.c`, `get_next_line_bonus.h`, `get_next_line_utils_bonus.c` → Bonus version (multiple file descriptors)  
 
 ## ▌ Implemented Functions
 ### ■ **Mandatory Part**
